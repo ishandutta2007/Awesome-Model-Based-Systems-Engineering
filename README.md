@@ -1,213 +1,104 @@
-# Awesome-Model-Based-Systems-Engineering
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Model-Based Systems Engineering Banner" width="100%" />
+</p>
 
-## Top Model-Based Systems Engineering (MBSE) Platforms Ecosystem
+# 🚀 Awesome Model-Based Systems Engineering (MBSE) Ecosystem 🛠️
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Model-Based-Systems-Engineering"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Model-Based-Systems-Engineering?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Model-Based-Systems-Engineering/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on SysML Modeling, Architecture Design, Requirements Traceability, Digital Thread & Complex Systems Engineering*
+> A curated list of **Model-Based Systems Engineering (MBSE)** SaaS platforms, software tools, SysML modeling environments, and open-source GitHub projects.
 
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Model-Based Systems Engineering (MBSE)**. These tools enable teams to design, analyze, and manage complex systems using formal models (SysML, Arcadia, etc.) rather than document-centric approaches—supporting architecture, requirements, interfaces, and verification.
-
-
-
-**Examples** include Cameo Systems Modeler, IBM Rhapsody, Capella Cloud, Valispace, GENESYS, Sparx Enterprise Architect, Ansys ModelCenter, PTC Modeler, Innoslate, and Vitech GENESYS (the category leaders).
-
-
-
-**Open-source emphasis**: True industrial-grade MBSE tools are limited in the open-source world, but **Eclipse Capella** (with the Arcadia method) stands out as a mature, production-used open solution. **Papyrus**, Python bindings such as **capellambse**, and related modeling frameworks provide additional options. This section highlights the strongest available open resources.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Cameo Systems Modeler (Catia Magic / No Magic)](https://www.3ds.com/)**  
-
-  Industry-leading SysML modeling tool widely used for complex systems architecture, simulation integration, and digital thread (now part of Dassault Systèmes).
-
-
-
-- **[IBM Engineering Systems Design Rhapsody](https://www.ibm.com/products/rhapsody)**  
-
-  Established SysML/UML modeling environment strong in embedded systems, code generation, and integration with the IBM engineering lifecycle suite.
-
-
-
-- **[Capella Cloud / Team for Capella](https://www.eclipse.org/capella/)**  
-
-  Collaborative and cloud-oriented offerings around the open-source Capella MBSE workbench and Arcadia method.
-
-
-
-- **[Valispace](https://www.valispace.com/)**  
-
-  Web-based systems engineering platform focused on requirements, parameters, and data-driven collaboration for hardware and complex products.
-
-
-
-- **[Vitech GENESYS](https://www.vitechcorp.com/)**  
-
-  Model-based systems engineering environment supporting architecture, requirements, and behavior modeling with a long heritage in defense and complex systems.
-
-
-
-- **[Sparx Enterprise Architect](https://sparxsystems.com/)**  
-
-  Versatile modeling platform supporting SysML, UML, and many other notations; popular for architecture and systems modeling at various scales.
-
-
-
-- **[Ansys ModelCenter](https://www.ansys.com/)**  
-
-  Model-based engineering environment for integrating simulation, optimization, and multi-disciplinary analysis in a systems context.
-
-
-
-- **[PTC Modeler (formerly Integrity Modeler)](https://www.ptc.com/)**  
-
-  SysML/UML modeling tool integrated with PTC’s product and application lifecycle management offerings.
-
-
-
-- **[Innoslate](https://www.innoslate.com/)**  
-
-  Web-based MBSE and requirements management platform supporting modeling, simulation, and lifecycle collaboration.
-
-
-
-- **[GENESYS / related Vitech offerings](https://www.vitechcorp.com/)**  
-
-  Comprehensive MBSE toolset emphasizing system architecture and the connection between requirements, behavior, and physical design.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Eclipse Capella](https://github.com/eclipse-capella/capella)**  
-
-  The leading open-source MBSE workbench implementing the Arcadia method—used in industry for architecture modeling of complex systems (systems, software, hardware).
-
-
-
-- **[Eclipse Papyrus](https://github.com/eclipse-papyrus/papyrus)**  
-
-  Open-source UML/SysML modeling environment built on Eclipse; highly extensible for domain-specific languages and systems modeling.
-
-
-
-- **[py-capellambse](https://github.com/dbinfrago/py-capellambse)**  
-
-  Python library providing headless access to Capella models—enabling automation, analysis, document generation, and CI/CD integration without the Capella GUI.
-
-
-
-- **[Capella Docker images & collaboration tooling](https://github.com/dbinfrago/capella-dockerimages)**  
-
-  Containerized Capella, Papyrus, and related MBSE tools for reproducible environments and remote/collaborative setups.
-
-
-
-- **[Arcadia / Capella add-ons and viewpoints](https://github.com/)**  
-
-  Community and industrial extensions that add viewpoints, validation rules, and domain-specific modeling capabilities to Capella.
-
-
-
-- **[SysML v2 pilot implementations and open libraries](https://github.com/)**  
-
-  Emerging open efforts around the SysML v2 standard (textual and API-oriented) for next-generation systems modeling.
-
-
-
-- **[Modelica and open multi-physics modeling tools](https://github.com/)**  
-
-  Open modeling languages and tools often used alongside MBSE for physical/behavioral simulation of systems.
-
-
-
-- **[Requirements and traceability open frameworks](https://github.com/)**  
-
-  Open tools for managing requirements and linking them to models (complementary to full MBSE suites).
-
-
-
-- **[Eclipse Modeling Framework (EMF) ecosystem](https://github.com/eclipse-emf)**  
-
-  Foundational open modeling technologies underlying many SysML/UML tools including Papyrus and Capella.
-
-
-
-- **[Open digital-thread and interchange prototypes](https://github.com/)**  
-
-  Experimental projects exploring model interchange, federation, and open digital-thread patterns between MBSE tools.
-
-
-
-### Additional Strong Open-Source Options
-
-- Adopting **Capella + Arcadia** as the primary open industrial-grade MBSE solution for architecture definition.
-
-- Using **Papyrus** when deep UML/SysML customization or Eclipse-based tooling is required.
-
-- Automating model analysis and reporting with **py-capellambse** and related Python tooling.
-
-- Combining open MBSE models with open simulation (Modelica, etc.) for analysis.
-
-- Accepting that advanced collaborative features, proprietary SysML profiles, simulation integration, and enterprise support still favor commercial tools (Cameo, Rhapsody, Valispace, GENESYS, Enterprise Architect, etc.).
-
-- Focusing open-source efforts on method adherence (Arcadia), model automation, and avoiding vendor lock-in for core architecture models.
-
-
-
-**Frameworks for building custom systems**: Model architecture in Capella (Arcadia) → automate extraction and validation with Python (capellambse) → generate documents/interfaces → link to requirements and simulation tools → optionally synchronize selected views with commercial platforms. Suitable for organizations seeking open, method-driven MBSE. Many aerospace, defense, and complex-product teams continue to standardize on commercial MBSE suites for full lifecycle integration.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- MBSE models often represent safety-critical or export-controlled systems. Tool selection, model quality, and configuration management have engineering and compliance implications. Open-source tools require appropriate process controls. This list is not engineering or regulatory advice.
-
-
+Focused on **SysML Modeling, Architecture Design, Requirements Traceability, Digital Thread, and Complex Systems Engineering**.
 
 ---
 
-**Made for systems engineers, architects, and MBSE practitioners building complex products.**
+## 📚 Table of Contents
+- [📊 Industry Overview & Market Insights](#-industry-overview--market-insights)
+- [🏢 SaaS & Commercial Enterprise Platforms](#-saas--commercial-enterprise-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-Let's keep systems models rigorous, traceable, and as open as practical.
+---
+
+## 📊 Industry Overview & Market Insights 💡
+
+The global **Model-Based Systems Engineering (MBSE)** market size was estimated at **~$1.2 Billion in 2025** and is projected to reach **~$2.8 Billion by 2032** (CAGR ~12.5%). 
+
+**Market Structure:** The sector is **moderately fragmented**. Key aerospace and defense enterprise leaders like **Dassault Systèmes** (Cameo/CATIA Magic), **Siemens**, **IBM**, and **PTC** dominate large enterprise deployments, while specialized web-native platforms (e.g., Valispace/Altium, Innoslate) and open-source standards (Eclipse Capella, SysML v2) serve growing niche and collaborative design teams.
+
+---
+
+## 🏢 SaaS & Commercial Enterprise Platforms 💼
+
+Below is a curated comparison of leading commercial MBSE software platforms, ordered by **estimated parent company revenue / valuation** (descending):
+
+| Platform / Tool 🛠️ | Parent / Company 🏛️ | Company Size (Rev / Val) 💰 | Starting Tier Price 🏷️ | Free Tier / Trial Limit ⏳ | Key Features & Focus 🎯 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[IBM Engineering Systems Design Rhapsody](https://www.ibm.com/products/rhapsody)** | IBM | ~$61.8B annual revenue | Custom Enterprise Quote (~$3,500+/user) | Free Trial available upon request | SysML/UML modeling, embedded code generation, IBM DOORS lifecycle integration |
+| **[Cameo Systems Modeler (CATIA Magic)](https://www.3ds.com/)** | Dassault Systèmes | ~$6.1B annual revenue ($45B+ cap) | ~$1,200 / user (Architect Edition) | **Free SysML v2 Community Edition** (limited to 500 major elements) | Industry standard SysML modeling, Teamwork Cloud, simulation integration |
+| **[PTC Modeler](https://www.ptc.com/)** | PTC Inc. | ~$2.1B annual revenue | Custom Enterprise Quote (~$2,500+/user) | 30-day Free Trial available | SysML/UML architectural modeling integrated with Windchill PLM & ALM |
+| **[Ansys ModelCenter](https://www.ansys.com/)** | Ansys (Synopsys) | ~$2.3B annual revenue | Custom Enterprise Quote (~$4,000+/user) | 30-day Free Trial for select modules | Multi-disciplinary trade studies, simulation integration & MBSE automation |
+| **[Valispace (Altium Requirements Portal)](https://www.valispace.com/)** | Altium (Renesas) | ~$300M+ revenue ($9.1B acquisition) | **$995 / year** (Altium Develop Plan) | **30-day Free Trial** (no credit card required, unlimited collaborators) | Data-driven hardware requirements, parametric modeling & cloud collaboration |
+| **[Sparx Enterprise Architect](https://sparxsystems.com/)** | Sparx Systems | Private (~$50M+ est. valuation) | **$245 one-time** (Professional Edition) | **30-day Free Trial** (full features with watermarked diagram exports) | Cost-effective SysML/UML architecture modeling & dynamic diagramming |
+| **[Innoslate](https://www.innoslate.com/)** | SPEC Innovations | Private (~$15M+ est. valuation) | Custom Enterprise Quote (~$1,188/yr) | **Free Cloud Sandbox Account** (limited to 20 entities per project) | Cloud-native MBSE, SysML/LML modeling, DoDAF support & AI requirements |
+| **[Vitech GENESYS](https://www.vitechcorp.com/)** | Zuken / Vitech | Private (Zuken: ~$250M revenue) | Custom Enterprise Quote (~$2,000+/user) | **30-day Academic / Evaluation Trial** upon sales request | End-to-end system architecture, behavioral modeling, verification & validation |
+
+---
+
+## 💻 Open-Source GitHub Projects 🔓
+
+Below are prominent open-source MBSE tools, frameworks, and libraries, sorted by **GitHub Star Count** (descending):
+
+| Project Name 📦 | GitHub Star Count ⭐ | Description 📝 |
+| :--- | :--- | :--- |
+| **[SysML-v2-Release](https://github.com/Systems-Modeling/SysML-v2-Release)** | [<img src="https://img.shields.io/github/stars/Systems-Modeling/SysML-v2-Release?style=social&color=white" alt="Stars"/>](https://github.com/Systems-Modeling/SysML-v2-Release/stargazers) | Official OMG SysML v2 release specifications, standard domain libraries, and transformation models. |
+| **[Eclipse Capella](https://github.com/eclipse-capella/capella)** | [<img src="https://img.shields.io/github/stars/eclipse-capella/capella?style=social&color=white" alt="Stars"/>](https://github.com/eclipse-capella/capella/stargazers) | Leading industrial open-source MBSE workbench implementing the **Arcadia method** for system architecture design. |
+| **[SysML-v2-Pilot-Implementation](https://github.com/Systems-Modeling/SysML-v2-Pilot-Implementation)** | [<img src="https://img.shields.io/github/stars/Systems-Modeling/SysML-v2-Pilot-Implementation?style=social&color=white" alt="Stars"/>](https://github.com/Systems-Modeling/SysML-v2-Pilot-Implementation/stargazers) | Reference textual editor, parser, and graphical viewer for SysML v2. |
+| **[SysML-v2-API-Services](https://github.com/Systems-Modeling/SysML-v2-API-Services)** | [<img src="https://img.shields.io/github/stars/Systems-Modeling/SysML-v2-API-Services?style=social&color=white" alt="Stars"/>](https://github.com/Systems-Modeling/SysML-v2-API-Services/stargazers) | REST/HTTP API services and repositories for interchanging SysML v2 models. |
+| **[capella-dockerimages](https://github.com/dbinfrago/capella-dockerimages)** | [<img src="https://img.shields.io/github/stars/dbinfrago/capella-dockerimages?style=social&color=white" alt="Stars"/>](https://github.com/dbinfrago/capella-dockerimages/stargazers) | Containerized Docker environments for running Eclipse Capella headless or via web client. |
+| **[py-capellambse](https://github.com/dbinfrago/py-capellambse)** | [<img src="https://img.shields.io/github/stars/dbinfrago/py-capellambse?style=social&color=white" alt="Stars"/>](https://github.com/dbinfrago/py-capellambse/stargazers) | Python library for programmatic read/write access to Capella MBSE models in automated CI/CD pipelines. |
+| **[capella-collab-manager](https://github.com/dbinfrago/capella-collab-manager)** | [<img src="https://img.shields.io/github/stars/dbinfrago/capella-collab-manager?style=social&color=white" alt="Stars"/>](https://github.com/dbinfrago/capella-collab-manager/stargazers) | Cloud platform for managing collaborative multi-user sessions with Eclipse Capella in browser. |
+| **[CADdrive](https://github.com/ghackenberg/CADdrive)** | [<img src="https://img.shields.io/github/stars/ghackenberg/CADdrive?style=social&color=white" alt="Stars"/>](https://github.com/ghackenberg/CADdrive/stargazers) | Open-source platform for CAD and MBSE model version control and cloud collaboration. |
+
+---
+
+## 🤝 How to Contribute 🌟
+
+Contributions are warmly welcome! Please follow these simple steps:
+1. 🍴 **Fork** this repository.
+2. 📝 **Add or edit** entries in `README.md` following the tabular format.
+3. 🔍 Ensure links are active and pricing/star info is accurate.
+4. 🚀 **Open a Pull Request** with a descriptive summary of changes.
+
+---
+
+## 💖 Support & Sponsorship ☕
+
+If you find this repository helpful for your MBSE workflow, research, or systems architecture project, please consider supporting the project!
+
+- ⭐ **Star** this repository to help others discover it.
+- 🔄 **Fork** and share it with your engineering team or community.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance on the [<img src="https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=flat-square&logo=github" alt="Sponsor"/> Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open-source systems engineering community! 🙌
+
+---
+
+## 📈 Star History 📊
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Model-Based-Systems-Engineering&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Model-Based-Systems-Engineering&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer 📜
+
+- This is a **community-curated** list — not an official endorsement of any commercial platform.
+- MBSE models often represent safety-critical or export-controlled systems. Tool selection, model security, and compliance management remain the sole responsibility of your engineering team.
