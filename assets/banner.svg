@@ -1,0 +1,60 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+    <style>
+      .glow-node {
+        animation: pulse 3s infinite alternate;
+      }
+      @keyframes pulse {
+        0% { r: 4px; opacity: 0.4; }
+        100% { r: 8px; opacity: 0.9; }
+      }
+      .dash-line {
+        stroke-dasharray: 6, 6;
+        animation: dash 20s linear infinite;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -100; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="200" rx="12" fill="url(#bg-grad)" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Dynamic / Architectural Tech Lines (Background Layer) -->
+  <path d="M 50 150 L 150 50 L 300 50 L 400 130 L 600 30 L 750 120" fill="none" stroke="#6366f1" stroke-width="1.5" stroke-opacity="0.25" class="dash-line" />
+  <path d="M 80 170 L 220 90 L 450 160 L 680 70 L 760 160" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.25" class="dash-line" />
+  
+  <circle cx="150" cy="50" r="5" fill="#818cf8" class="glow-node"/>
+  <circle cx="400" cy="130" r="6" fill="#c084fc" class="glow-node"/>
+  <circle cx="600" cy="30" r="5" fill="#f472b6" class="glow-node"/>
+
+  <!-- Foreground Title and Subtitle -->
+  <g text-anchor="middle">
+    <!-- Title -->
+    <text x="400" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="34" fill="url(#accent-grad)" letter-spacing="1">
+      Awesome Model-Based Systems Engineering
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="400" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="400" font-size="16" fill="#e2e8f0" letter-spacing="0.5">
+      🚀 SysML • Eclipse Capella • Digital Thread • Systems Architecture
+    </text>
+
+    <!-- Tagline Badge -->
+    <rect x="260" y="145" width="280" height="26" rx="13" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+    <text x="400" y="162" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="12" fill="#94a3b8">
+      Curated Industrial &amp; Open-Source Ecosystem
+    </text>
+  </g>
+</svg>
