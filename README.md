@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Model-Based-Systems-Engineering"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Model-Based-Systems-Engineering?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Model-Based-Systems-Engineering"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Model-Based-Systems-Engineering?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Model-Based-Systems-Engineering/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -55,9 +55,9 @@ Below is a curated comparison of leading commercial MBSE software platforms, ord
 
 ## 💻 Open-Source GitHub Projects 🔓
 
-Below are prominent open-source MBSE tools, frameworks, and libraries, sorted by **GitHub Star Count** (descending):
+Below are prominent open-source MBSE tools, frameworks, and libraries, sorted by **GitHub Stars_Count** (descending):
 
-| Project Name 📦 | GitHub Star Count ⭐ | Description 📝 |
+| Project Name 📦 | GitHub Stars_Count ⭐ | Description 📝 |
 | :--- | :--- | :--- |
 | **[SysML-v2-Release](https://github.com/Systems-Modeling/SysML-v2-Release)** | [<img src="https://img.shields.io/github/stars/Systems-Modeling/SysML-v2-Release?style=social&color=white" alt="Stars"/>](https://github.com/Systems-Modeling/SysML-v2-Release/stargazers) | Official OMG SysML v2 release specifications, standard domain libraries, and transformation models. |
 | **[Eclipse Capella](https://github.com/eclipse-capella/capella)** | [<img src="https://img.shields.io/github/stars/eclipse-capella/capella?style=social&color=white" alt="Stars"/>](https://github.com/eclipse-capella/capella/stargazers) | Leading industrial open-source MBSE workbench implementing the **Arcadia method** for system architecture design. |
